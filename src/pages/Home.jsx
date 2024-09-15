@@ -1,16 +1,30 @@
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import Loader from "../components/Loader";
+import Error from "../components/Error";
+import { setRestaurants } from "../redux/actions/restActions";
+import Container from "../components/Container";
+import RestaurantCard from "../components/RestaurantCard";
 
-import ActionTypes from "../redux/actionTypes";
 const Home = () => {
-  const state = useSelector((store) => store.restaurantReducer);
-
-  console.log(state);
-
+  const dispatch = useDispatch();
+  const { isLoading, error, restaurants } = useSelector(
+    (store) => store.restaurantReducer
+  );
+  const retry = () => dispatch(setRestaurants());
   return (
-    <div className="p-5 text-4xl ">
-      <h1>Home</h1>
-      <p>{state.restaurants.length} restaurant </p>
-    </div>
+    <Container>
+      {isLoading ? (
+        <Loader />
+      ) : error ? (
+        <Error msg={error} retry={retry} />
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
+          {restaurants.map((item) => (
+            <RestaurantCard key={item.id} data={item} />
+          ))}
+        </div>
+      )}
+    </Container>
   );
 };
 
