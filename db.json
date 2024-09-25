@@ -325,7 +325,7 @@
       "category": "Salad",
       "price": 10,
       "photo": "https://images.pexels.com/photos/257816/pexels-photo-257816.jpeg",
-      "restaurantId": "16",
+      "restaurantId": "2",
       "isPopular": true
     },
     {
@@ -335,7 +335,7 @@
       "category": "Main Course",
       "price": 20,
       "photo": "https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg",
-      "restaurantId": "17",
+      "restaurantId": "2",
       "isPopular": true
     },
     {
@@ -345,7 +345,7 @@
       "category": "Dessert",
       "price": 8,
       "photo": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
-      "restaurantId": "18",
+      "restaurantId": "2",
       "isPopular": true
     },
     {
@@ -355,7 +355,7 @@
       "category": "Salad",
       "price": 12,
       "photo": "https://images.pexels.com/photos/551997/pexels-photo-551997.jpeg",
-      "restaurantId": "19",
+      "restaurantId": "14",
       "isPopular": true
     },
     {
@@ -365,7 +365,7 @@
       "category": "Soup",
       "price": 10,
       "photo": "https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg",
-      "restaurantId": "20",
+      "restaurantId": "1",
       "isPopular": true
     },
     {
@@ -375,7 +375,7 @@
       "category": "Main Course",
       "price": 25,
       "photo": "https://images.pexels.com/photos/7552330/pexels-photo-7552330.jpeg",
-      "restaurantId": "21",
+      "restaurantId": "1",
       "isPopular": true
     },
     {
@@ -385,7 +385,7 @@
       "category": "Side",
       "price": 6,
       "photo": "https://images.pexels.com/photos/7214484/pexels-photo-7214484.jpeg",
-      "restaurantId": "22",
+      "restaurantId": "1",
       "isPopular": true
     },
     {
@@ -395,7 +395,7 @@
       "category": "Salad",
       "price": 7,
       "photo": "https://images.pexels.com/photos/6072382/pexels-photo-6072382.jpeg",
-      "restaurantId": "23",
+      "restaurantId": "15",
       "isPopular": true
     }
   ],
