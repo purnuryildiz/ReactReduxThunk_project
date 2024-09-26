@@ -19,14 +19,14 @@ const RestaurantDetail = () => {
         <img className="w-[300px] rounded-md" src={restaurant.photo} />
         <div className="flex flex-col ">
           <div className="text-red-500 flex gap-5">
-            <p className="flex items-center gap-2  md:text-sm">
+            <p className="flex items-center gap-2 text-xs md:text-lg">
               <FaArrowDown />
               <span className="gap-3 text-gray-500">
                 <span className="mr-1">minimum</span>
                 {restaurant.minPrice} {"\u20BA"}
               </span>
             </p>
-            <p className="flex items-center gap-2 md:text-sm  ">
+            <p className="flex items-center gap-2 text-xs md:text-lg  ">
               <FaClock />
               <span className="text-gray-500">{restaurant.estimatedDelivery} min. </span>
             </p>

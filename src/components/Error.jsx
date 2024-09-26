@@ -7,11 +7,16 @@ const Error = ({ msg, retry }) => {
         <p>Sorry something went wrong :(</p>
         <p className="font-semibold">-{msg}- </p>
       </div>
-      <div className="flex justify-center">
-        <button onClick={retry} className="border p-2 px-4 rounded-md hover:bg-zinc-100 ">
-          Try Again!
-        </button>
-      </div>
+      {retry && (
+        <div className="flex justify-center">
+          <button
+            onClick={retry}
+            className="border p-2 px-4 rounded-md hover:bg-zinc-100 "
+          >
+            Try Again!
+          </button>
+        </div>
+      )}
     </div>
   );
 };
