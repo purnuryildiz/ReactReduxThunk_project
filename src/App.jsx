@@ -7,12 +7,14 @@ import { useDispatch } from "react-redux";
 import Restaurant from "./pages/Restaurant";
 
 import { getData } from "./redux/actions/restActions";
+import { getCart } from "./redux/actions/basketActions";
 
 const App = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(getData());
+    dispatch(getCart());
   }, []);
   return (
     <BrowserRouter>

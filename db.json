@@ -402,10 +402,18 @@
   "cart": [
     {
       "id": "1",
-      "title": "Grilled Somon",
-      "price": 45,
-      "photo": "rastgele.com",
-      "restaurantName": "Euphoria Eats",
+      "title": "Tomato and Food",
+      "price": 7,
+      "photo": "https://images.pexels.com/photos/6072382/pexels-photo-6072382.jpeg",
+      "restaurantName": "The Gathering Spot",
+      "amount": 1
+    },
+    {
+      "id": "1",
+      "title": "Bread and Food",
+      "price": 6,
+      "photo": "https://images.pexels.com/photos/7214484/pexels-photo-7214484.jpeg",
+      "restaurantName": "Gourmet Garden",
       "amount": 3
     }
   ]

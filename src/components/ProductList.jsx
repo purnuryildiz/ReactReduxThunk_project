@@ -32,13 +32,13 @@ const ProductList = () => {
         <FaFireFlameCurved className="text-red-500" />
         Popüler
       </h2>
-      <p className="text-gray-600">The most popular dishes of the restaurant:</p>
+      <p className="text-gray-600 mt-7">The most popular dishes of the restaurant:</p>
       {loading ? (
         <Loader />
       ) : error ? (
         <Error message={error} />
       ) : (
-        <ul className="grid lg:grid-cols-2 gap-5">
+        <ul className="grid lg:grid-cols-2 gap-5 mt-4">
           {products.map((item) => (
             <div>
               <ProductCard key={item.id} item={item} />

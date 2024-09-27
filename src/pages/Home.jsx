@@ -7,16 +7,16 @@ import RestaurantCard from "../components/RestaurantCard";
 
 const Home = () => {
   const dispatch = useDispatch();
-  const { isLoading, error, restaurants } = useSelector(
-    (store) => store.restaurantReducer
-  );
+  const { isLoading, error, restaurants = [] } = useSelector((store) => store.restaurant);
+
   const retry = () => dispatch(setRestaurants());
+
   return (
     <Container>
       {isLoading ? (
         <Loader />
       ) : error ? (
-        <Error msg={error} retry={retry} />
+        <Error msg={error.message || "An error occurred."} retry={retry} />
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
           {restaurants.map((item) => (

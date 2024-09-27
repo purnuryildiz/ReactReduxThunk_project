@@ -7,9 +7,9 @@ import { thunk } from "redux-thunk";
 //reducer'ları birleştir:
 
 const rootReducer = combineReducers({
-  productReducer,
-  restaurantReducer,
-  cartReducer,
+  product: productReducer,
+  restaurant: restaurantReducer,
+  cart: cartReducer,
 });
 
 //store'u oluştur:
