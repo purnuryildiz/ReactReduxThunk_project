@@ -7,10 +7,12 @@ import Container from "../components/Container";
 
 const Header = () => {
   // Restaurant verilerini alıyoruz
-  const { restaurants } = useSelector((store) => store.restaurant || { restaurants: [] });
+  const { restaurants } = useSelector((store) => store.restaurant);
 
   // Cart verilerini alıyoruz
-  const { cart } = useSelector((store) => store.cart || { cart: [] });
+  const { cart } = useSelector((store) => store.cart);
+  //cart dizisindeki elemanların amountlarını toplamak için
+  const total = cart.reduce((a, b) => a + b.amount, 0);
 
   return (
     <header className="shadow">
@@ -34,7 +36,7 @@ const Header = () => {
             className="flex items-center p-2 gap-2 hover:bg-red-100 rounded-full"
           >
             <GrBasket />
-            <span>{cart.length || 0}</span>
+            <span>{total}</span>
           </Link>
         </div>
       </Container>

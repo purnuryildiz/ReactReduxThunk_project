@@ -30,7 +30,7 @@ const ProductList = () => {
     <div>
       <h2 className="flex items-center gap-2 text-2xl font-bold">
         <FaFireFlameCurved className="text-red-500" />
-        Popüler
+        Popular
       </h2>
       <p className="text-gray-600 mt-7">The most popular dishes of the restaurant:</p>
       {loading ? (

@@ -28,9 +28,7 @@ const RestaurantCard = ({ data }) => {
           </p>
         </div>
         <p className="text-sm my-2 text-gray-500">
-          <span className="mr-2">
-            {data.minPrice} {"\u20BA"}
-          </span>
+          <span className="mr-2">{data.minPrice} $</span>
           minimum
         </p>
         <div className="flex justify-between items-center">

@@ -5,6 +5,9 @@ const ActionTypes = {
   CART_LOADING: "CART_LOADING",
   CART_SUCCESS: "CART_SUCCESS",
   CART_ERROR: "CART_ERROR",
+  ADD_TO_BASKET: "ADD_TO_BASKET",
+  UPDATE_ITEM: "UPDATE_ITEM",
+  DELETE_ITEM: "DELETE_ITEM",
 };
 
 export default ActionTypes;

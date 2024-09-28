@@ -166,7 +166,6 @@
       "distance": 8
     }
   ],
-
   "products": [
     {
       "id": "1",
@@ -401,20 +400,12 @@
   ],
   "cart": [
     {
-      "id": "1",
-      "title": "Tomato and Food",
-      "price": 7,
-      "photo": "https://images.pexels.com/photos/6072382/pexels-photo-6072382.jpeg",
-      "restaurantName": "The Gathering Spot",
-      "amount": 1
-    },
-    {
-      "id": "1",
-      "title": "Bread and Food",
-      "price": 6,
-      "photo": "https://images.pexels.com/photos/7214484/pexels-photo-7214484.jpeg",
-      "restaurantName": "Gourmet Garden",
-      "amount": 3
+      "id": "9401693c-29a1-4e72-9cf1-388b49b5ebfc",
+      "productId": "2",
+      "title": "Seafood Salad",
+      "price": 18,
+      "photo": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg",
+      "amount": 6
     }
   ]
 }
