@@ -400,12 +400,12 @@
   ],
   "cart": [
     {
-      "id": "9401693c-29a1-4e72-9cf1-388b49b5ebfc",
-      "productId": "2",
-      "title": "Seafood Salad",
-      "price": 18,
-      "photo": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg",
-      "amount": 6
+      "id": "4d9c51f6-d940-489c-a4ce-0a5146c295a4",
+      "productId": "21",
+      "title": "Food Platter",
+      "price": 25,
+      "photo": "https://images.pexels.com/photos/7552330/pexels-photo-7552330.jpeg",
+      "amount": 2
     }
   ]
 }

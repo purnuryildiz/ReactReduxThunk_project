@@ -23,7 +23,7 @@ const RestaurantDetail = () => {
               <FaArrowDown />
               <span className="gap-3 text-gray-500">
                 <span className="mr-1">minimum</span>
-                {restaurant.minPrice} {"\u20BA"}
+                {restaurant.minPrice} $
               </span>
             </p>
             <p className="flex items-center gap-2 text-xs md:text-lg  ">
